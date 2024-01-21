@@ -1,0 +1,67 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Savor & Enjoy",
+      "favourite": true,
+      "rating": 5,
+      "description": "Discover flavors that will delight your taste buds.",
+      "latitude": 41.9949497950331,
+      "longitude": 21.428211317444067
+    },
+    {
+      "name": "Gastronomic Delights 123",
+      "description": "Indulge in a culinary journey with our exquisite menu.",
+      "favourite": false,
+      "rating": 5,
+      "id": 2,
+      "latitude": 41.9969,
+      "longitude": 41.9969
+    },
+    {
+      "id": 6,
+      "name": "Urban Flavors",
+      "favourite": false,
+      "rating": 3,
+      "description": "Explore a fusion of urban tastes in a trendy setting.",
+      "latitude": 42,
+      "longitude": 21.4361
+    },
+    {
+      "id": 7,
+      "name": "Flavorful Delights",
+      "favourite": false,
+      "rating": 4,
+      "description": "Tantalize your senses with our array of flavorful delights.",
+      "latitude": 41.9959,
+      "longitude": 21.4314
+    },
+    {
+      "name": "Mystical Bites",
+      "description": "Discover the mystery behind our mystical bites.",
+      "favourite": true,
+      "rating": 4,
+      "id": 8,
+      "latitude": 41.9979,
+      "longitude": 41.9979
+    },
+    {
+      "name": "Sunny Side Dining",
+      "description": "Experience the sunny side of life with our delightful dishes.",
+      "favourite": false,
+      "rating": 4,
+      "id": 9,
+      "latitude": 41.9979,
+      "longitude": 21.4304
+    },
+    {
+      "id": 10,
+      "name": "Tropical Taste Haven",
+      "favourite": false,
+      "rating": 3,
+      "description": "Escape to a tropical taste haven with our exotic menu.",
+      "latitude": 41.9986,
+      "longitude": 21.4318
+    }
+  ]
+}
