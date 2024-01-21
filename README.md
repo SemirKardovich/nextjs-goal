@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fine Dine
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The "Fine Dine" project is designed to help achieve personal learning goals, focusing on Next.js 13 and Tailwind CSS. This hands-on experience involves exploring the capabilities of Next.js, Json Server, Tailwind/Flowbite React, and Mapbox using react-map-gl.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [NextJS](https://nextjs.org/)
+- [JSON Server](https://npmjs.com/package/json-server)
+- [Tailwind(Flowbite React)](https://flowbite-react.com/)
+- [Mapbox(react-map-gl)](https://visgl.github.io/react-map-gl/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the Repository**
 
-## Learn More
+   ```bash
+   git clone git@github.com:SemirKardovich/nextjs-goal.git
+   cd nextjs-goal
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Run the Development Server**
 
-## Deploy on Vercel
+   ```bash
+   yarn run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   After running the command, you should see the development server running on [http://localhost:3000/](http://localhost:3000/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Run the JSON Server**
+
+   ```bash
+   json-server --watch database/db.json --port 8000
+   ```
+
+   After running the command, you should see the json server running on [http://localhost:8000/](http://localhost:8000/)
